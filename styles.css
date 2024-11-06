@@ -1,0 +1,75 @@
+html{
+    font-family: Bebas Neue;
+}
+body{
+    background-color: skyblue;
+}
+
+#heroDiv{
+    display: grid;
+    grid-template-areas: "a c" 
+                         "b c";
+    flex-direction: rows;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    
+}
+
+#heroImgDiv{
+    grid-area: a;
+    width: 400px;
+    height: 400px;
+    margin: 0px 5%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+#heroImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#heroHeadingDiv{
+    grid-area: b;
+    background-color: none;
+    width: 400px;
+    height: 100%;
+    margin: auto 5%;
+    text-align: center;
+
+
+}
+#heroHeading{
+    width: 100%;
+    font-size: 36px;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+#heroPara{
+    margin-top: auto;
+    color: gray;
+    font-size: 24px;
+}
+
+#heroPara2Div{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+}
+
+#heroPara2{
+    width: 50%;
+    text-align: center;
+}
