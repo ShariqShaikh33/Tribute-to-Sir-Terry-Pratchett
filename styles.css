@@ -20,6 +20,10 @@ body{
     
 }
 
+.contentDiv{
+    text-align: center;
+}
+
 #heroDiv{
     display: grid;
     grid-template-areas: "a c" 
@@ -33,6 +37,16 @@ body{
     padding: 0px;
     color: white;
     
+}
+
+#heroLeftDiv{
+    text-align: center;
+    padding: 15px;
+}
+#herorightDiv{
+    text-align: center;
+    padding: 15px;
+    min-width: 500px;
 }
 
 #heroImgDiv{
@@ -82,9 +96,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.8);
-    
+    border: 5px solid white;
     border-radius: 10px;
-    max-width: 200px;
+    max-width: 500px;
     height: 90%;
     width: 90%;
     margin-left: auto;
@@ -105,7 +119,7 @@ body{
     color: white;
 }
 
-#panel-1{
+#books{
     margin: 0px;
     padding: 0px;
     background-color: rgba(0,0,0,0.8);
