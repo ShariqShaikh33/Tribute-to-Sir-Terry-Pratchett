@@ -20,41 +20,54 @@ body{
     
 }
 
+#navBar{
+    display: flex;
+    background-color: black;
+    font-color: white;
+    width: 100%;
+
+}
+
 .contentDiv{
     text-align: center;
 }
 
 #heroDiv{
-    display: grid;
-    grid-template-areas: "a c" 
-                         "b c";
+    display: flex;
     flex-direction: rows;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 90vh;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     color: white;
     
 }
 
-#heroLeftDiv{
-    text-align: center;
-    padding: 15px;
+.heroDivComponent{
+    border: 1px solid white;
+    height: 100%;
 }
-#herorightDiv{
+
+#heroDivLeft{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 15px;
-    min-width: 500px;
+    
+    width: 40%;
+}
+#heroDivRight{
+    text-align: middle;
+    width: 60%;
 }
 
 #heroImgDiv{
-    grid-area: a;
     width: 400px;
     height: 400px;
     margin: 0px 5%;
     overflow: hidden;
+    
     border-radius: 50%;
     border: 5px solid rgba(0,0,0,0.3);
     
