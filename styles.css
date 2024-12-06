@@ -1,6 +1,7 @@
 html{
     font-family: Bebas Neue;
     min-width: 100px;
+    scroll-behavior: smooth;
 }
 body{
     background-image: url("Great-ATuin.png");
@@ -87,59 +88,4 @@ body{
     justify-content: center;
 }
 
-#pterryMainDivleft{
-    border-left: 1px solid white;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-}
 
-#pterryimagewrapper{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    
-    overflow: hidden;
-}
-
-#TerryPratchettPic{
-    width:400px;
-    height: 550px;
-    object-fit: cover;
-}
-
-#pterrynamewrapper{
-    color: white;
-    text-align: center;
-}
-
-#pterrynamewrapper p {
-    font-size: 24px;
-    margin: 0px;
-    letter-spacing: 1px;
-}
-
-#pterryname{
-    letter-spacing: 1px;
-}
-
-#pterryMainDivright{
-    border-right: 1px solid white;
-    width: 50%;
-}
-
-#lefttextwrapper{
-    color: white;
-    font-size: 28px;
-    margin: auto;
-    width: 80%;
-    margin-top: 10%;
-}
-
-#lefttextwrapper p{
-    line-height: 40px;
-    text-align: justify;
-}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylessection1.css">
+    <link rel="stylesheet" href="stylessection2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -16,6 +18,7 @@
                 <li><a href="#section1">PTerry</a></li>
                 <li><a href="#section2">Books</a></li>
                 <li><a href="#section3">Awards</a></li>
+                <li><a href="#section4">Quotes</a></li>
             </ul>
         </nav>
     </header>
@@ -24,21 +27,27 @@
             <div class="sectionDiv">
                 
                 <div class="mainDiv" id="pterryMainDiv">
+                    
                     <div id="pterryMainDivleft">
+
                         <div id="pterryimagewrapper">
                             <img id="TerryPratchettPic" src="TerryPratchettPic.png">
                         </div>
+                        
                         <div id="pterrynamewrapper">
                             <h1 id="pterryname">Terence David John Pratchett</h1>
                             <p>A funny man</p>
                         </div>
                     </div>
+                    
                     <div id="pterryMainDivright">
                         <div id="lefttextwrapper">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorum exercitationem voluptate nisi placeat, molestias molestiae repudiandae? Iste optio eos, fugiat itaque porro doloremque, possimus deleniti quos, eligendi vero consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorum exercitationem voluptate nisi placeat, molestias molestiae repudiandae? Iste optio eos, fugiat itaque porro doloremque, possimus deleniti quos, eligendi vero consequatur.</p>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </section> 
 
@@ -49,7 +58,25 @@
                 </div>
                 <div class="mainDiv">
                     <div class="lrborder">
-
+                            <div class="slider">
+                                <button id="previous" class="prev" onclick="previousSlide()">&#10094</button>
+                                <div class="slides">
+                                    <div class="imgslides">
+                                        <img class="slide present" src="The_Colour_Of_Magic.png">
+                                        <img class="slide" src="Equal_Rites.png">
+                                        <img class="slide" src="Mort.png">
+                                        <img class="slide" src="Guards_Guards_cover.png">
+                                        <img class="slide" src="Small_Gods.png">
+                                        <img class="slide" src="The_Wee_Free_Men.png">
+                                        <img class="slide" src="Going_Postal.png">
+                                    </div>
+                                    <div class="textslides bookcolour">
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <button id="next" class="next" onclick="nextSlide()">&#10095</button>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +93,25 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
+        
+        <section id="section4" class="pageSection">
+            <div class="sectionDiv">
+                <div class="upperDiv">
+                    <p>Quotes</p>
+                </div>
+                <div class="mainDiv">
+                    <div class="lrborder">
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+
+    <script src="basic.js">
+
+    </script>
 </body>
 </html>
