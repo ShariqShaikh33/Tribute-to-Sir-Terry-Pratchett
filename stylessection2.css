@@ -23,13 +23,18 @@
     overflow: hidden;
 }
 
-
 .slide{
     display: none;
     height: 100%;
 }
+.slide1{
+    display: none;
+    height: 100%;
+}
 .present{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgslides{
@@ -40,12 +45,66 @@
 
 .textslides{
     
-    height: 96%;
+    height: 100%;
     width: 100%;
 }
 
-.bookcolour{
-    border: 11px solid  #a1d2df;
-    background-color: #8d7859;
+
+.bookcolour1{
+    outline: 17px solid  #a1d2df;
+    height: 100%;
+    outline-offset: -17px;
+    background-color: #f2e0c4;
+    color: #ea523d;
+
+    
+}
+
+.bookcolour2{
+    outline: 12px solid #856783;
+    height: 100%;
+    outline-offset: -12px;
+    background-color: #372742;
+    color: #ffe830;
+}
+
+.bookcolour3{
+    outline: 18px solid #5c8cb0;
+    height: 100%;
+    outline-offset: -18px;
+    background-color: #0a435e;
+    color: #e0cc88;
+}
+
+.bookcolour4{
+    outline: 20px solid #ef7f2d;
+    height: 100%;
+    outline-offset: -20px;
+    background-color: #863a2d;
+    color: #f7e227;
+}
+
+.bookcolour5{
+    outline: 13px solid #6a9752;
+    height: 100%;
+    outline-offset: -13px;
+    background-color: #1e3a12;
+    color: #f5d71c;
+}
+
+.bookcolour6{
+    outline: 15px solid #699c4a;
+    height: 100%;
+    outline-offset: -15px;
+    background-color: #f0f2f0;
+    color: #333b52;
+}
+
+.bookcolour7{
+    outline: 19px solid #cfcd9a;
+    height: 100%;
+    outline-offset: -19px;
+    background-color: #2a4127;
+    color: #c2a248;
 }
 
