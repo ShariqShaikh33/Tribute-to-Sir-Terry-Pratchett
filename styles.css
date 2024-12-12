@@ -20,7 +20,7 @@ body{
     height: 100%;
     margin: auto;
     color: white;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 #navList{
     height: 10vh;
@@ -59,7 +59,7 @@ body{
 .upperDiv{
     width: 100%;
     height: 10%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
     color: white;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ body{
 .mainDiv{
     width: 100%;
     height: 84%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 
 #pterryMainDiv{

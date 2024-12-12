@@ -38,6 +38,9 @@
 }
 
 #pterryMainDivright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-right: 1px solid white;
     width: 50%;
 }
@@ -45,12 +48,17 @@
 #lefttextwrapper{
     color: white;
     font-size: 28px;
-    margin: auto;
     width: 80%;
-    margin-top: 10%;
 }
 
 #lefttextwrapper p{
-    line-height: 40px;
+    color: rgb(210,210,210);
+    font-size: 40px;
+    line-height: 50px;
     text-align: justify;
+}
+
+#lefttextwrapper span{
+    color: white;
+    font-size: 46px;
 }
