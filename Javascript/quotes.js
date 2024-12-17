@@ -26,6 +26,8 @@ let sourcetag = [
     "― Terry Pratchett, Hogfather"
 ];
 
+
+
 let upperQ = document.getElementById("upperQuotes");
 let lowerQ = document.getElementById("lowerQuotes");
 let refreshQ = document.getElementById("QuoteRefreshBtn");
@@ -33,19 +35,38 @@ let initialRandom =  (Math.random() * 10).toFixed(0);
 
 function staticQuote(){
     upperQ.innerHTML = quotesarray[initialRandom];
-    lowerQ.innerHTML = sourcetag[initialRandom];
+    lowerQ.innerHTML += sourcetag[initialRandom];
 }
 staticQuote();
+
+
+let backgroundarr=["bookcolour1","bookcolour2","bookcolour3","bookcolour4","bookcolour5","bookcolour6","bookcolour7"]
+let colorarr = ["#ea523d","#ffe830","#e0cc88","#f7e227","#f5d71c","#333b52","#c2a248"];
+let borderarr = ["#a1d2df","#856783","#5c8cb0","#ef7f2d","#6a9752","#699c4a","#cfcd9a"];
+
+function selectBackground(){
+    let randomBackground=(Math.random()*(6-0)+0).toFixed(0);
+    upperQ.removeAttribute("class");
+    console.log(randomBackground);
+    
+    upperQ.setAttribute("class", `${backgroundarr[randomBackground]}`);
+    lowerQ.style.color = `${colorarr[randomBackground]}`;
+
+    refreshQ.style.color = `${colorarr[randomBackground]}`;
+    refreshQ.style.borderColor = `${borderarr[randomBackground]}`;
+    
+}
+selectBackground();
+
 
 refreshQ.addEventListener('click',function refreshTheQuotes(event){
     
     let randomi = Math.random() * 10;
-    console.log(randomi.toFixed(0));
 
     
     upperQ.innerHTML = quotesarray[randomi.toFixed(0)];
     lowerQ.innerHTML = sourcetag[randomi.toFixed(0)];
-
+    selectBackground();
     
     event.preventDefault();
 });
