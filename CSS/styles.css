@@ -1,10 +1,14 @@
-html{
+*{
     font-family: Bebas Neue;
-    min-width: 100px;
     scroll-behavior: smooth;
 }
+
+html{
+    min-width: 100px;
+    
+}
 body{
-    background-image: url("Great-ATuin.png");
+    background-image: url("../Images/Great-ATuin.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -13,6 +17,15 @@ body{
     display: flex;
     flex-direction: column;
 
+}
+
+.toTheTop{
+    position: relative;
+    border: 1px solid coral;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.9);
 }
 
 .navBar{
