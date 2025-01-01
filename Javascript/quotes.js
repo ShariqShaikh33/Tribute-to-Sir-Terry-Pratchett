@@ -30,6 +30,7 @@ let sourcetag = [
 
 let upperQ = document.getElementById("upperQuotes");
 let lowerQ = document.getElementById("lowerQuotes");
+let upperdiv = document.getElementById("quoteshead");
 let refreshQ = document.getElementById("QuoteRefreshBtn");
 let initialRandom =  (Math.random() * 10).toFixed(0);
 
@@ -50,10 +51,14 @@ function selectBackground(){
     console.log(randomBackground);
     
     upperQ.setAttribute("class", `${backgroundarr[randomBackground]}`);
+    upperdiv.setAttribute("class", `${backgroundarr[randomBackground]}`);
     lowerQ.style.color = `${colorarr[randomBackground]}`;
 
     refreshQ.style.color = `${colorarr[randomBackground]}`;
     refreshQ.style.borderColor = `${borderarr[randomBackground]}`;
+
+    upperdiv.style.color = `${colorarr[randomBackground]}`;
+    upperdiv.style.borderColor = `${borderarr[randomBackground]}`;
     
 }
 selectBackground();
