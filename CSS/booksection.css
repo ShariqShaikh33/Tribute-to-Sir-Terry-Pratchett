@@ -23,7 +23,7 @@
 }
 
 .slides{
-    
+
     height: 100%;
     width: 100%;
     display: flex;
@@ -75,7 +75,7 @@
     color: #ea523d;
 }
 
-.colorScheme1{
+.colorScheme{
     background-color: #f2e0c4;
     color: #ea523d;
     outline: 10px solid #a1d2df;
@@ -131,3 +131,14 @@
     color: #c2a248;
 }
 
+.slidebutton{
+    height: 100%;
+    width: 5%;
+    background: none;
+    color: #ea523d;
+    font-size: 50px;
+    border: none;
+}
+.slidebutton:active{
+    border: none;
+}

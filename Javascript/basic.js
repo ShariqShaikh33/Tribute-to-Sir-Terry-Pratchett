@@ -3,6 +3,7 @@ let nextbtn = document.getElementById("next");
 var slidearr = document.querySelectorAll(".slide");
 var slidetextarr = document.querySelectorAll(".slide1");
 var booksupperdiv = document.getElementById("booksheading");
+var slidebutton = document.querySelectorAll(".slidebutton");
 
 const theme=[
     {
@@ -61,12 +62,13 @@ function nextSlide(){//Creating the next slide function.
             i=0;
             slidearr[i].classList.add("present");
             slidetextarr[i].classList.add("present");
-            console.log(i);
 
             booksupperdiv.style.backgroundColor = theme[i].background;
             booksupperdiv.style.color = theme[i].color;
             booksupperdiv.style.outline = theme[i].outline;
             booksupperdiv.style.outlineOffset = theme[i].outlineoffset;
+            slidebutton[0].style.color = theme[i].color;
+            slidebutton[1].style.color = theme[i].color;
 
             break;
         }
@@ -84,6 +86,8 @@ function nextSlide(){//Creating the next slide function.
             booksupperdiv.style.color = theme[i+1].color;
             booksupperdiv.style.outline = theme[i+1].outline;
             booksupperdiv.style.outlineOffset = theme[i+1].outlineoffset;
+            slidebutton[0].style.color = theme[i+1].color;
+            slidebutton[1].style.color = theme[i+1].color;
             break;
         }   
     }
@@ -100,6 +104,13 @@ function previousSlide(){//Creating the next slide function.
             i=slidearr.length-1;
             slidearr[i].classList.add("present");
             slidetextarr[i].classList.add("present");
+
+            booksupperdiv.style.backgroundColor = theme[i].background;
+            booksupperdiv.style.color = theme[i].color;
+            booksupperdiv.style.outline = theme[i].outline;
+            booksupperdiv.style.outlineOffset = theme[i].outlineoffset;
+            slidebutton[0].style.color = theme[i].color;
+            slidebutton[1].style.color = theme[i].color;
             break;
         }
 
@@ -109,6 +120,13 @@ function previousSlide(){//Creating the next slide function.
             slidetextarr[i].classList.remove("present");
             slidearr[i-1].classList.add("present");
             slidetextarr[i-1].classList.add("present");
+
+            booksupperdiv.style.backgroundColor = theme[i-1].background;
+            booksupperdiv.style.color = theme[i-1].color;
+            booksupperdiv.style.outline = theme[i-1].outline;
+            booksupperdiv.style.outlineOffset = theme[i-1].outlineoffset;
+            slidebutton[0].style.color = theme[i-1].color;
+            slidebutton[1].style.color = theme[i-1].color;
             break;
         }   
     }

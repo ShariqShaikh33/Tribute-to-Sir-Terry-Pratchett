@@ -19,20 +19,10 @@ body{
 
 }
 
-.toTheTop{
-    position: relative;
-    border: 1px solid coral;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,0.9);
-}
-
 .navBar{
     width: 90%;
     height: 100%;
     margin: auto;
-    color: white;
     background-color: rgba(0,0,0,0.9);
 }
 #navList{
@@ -42,10 +32,10 @@ body{
     justify-content: space-evenly;
     align-items: center;
     font-size: 28px;
+    width: 87%
     
 }
 #navList a{
-    color: white;
     text-decoration: none;
 }
 

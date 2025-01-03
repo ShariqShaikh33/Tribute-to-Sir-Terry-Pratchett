@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
@@ -15,13 +16,13 @@
 </head>
 <body>
     <header>
-        <nav class="navBar">
-            <ul type="none" id="navList" >
-                <li><a href="#section1">PTerry</a></li>
-                <li><a href="#section2">Discworld</a></li>
-                <li><a href="#section3">Books</a></li>
-                <li><a href="#section4">Awards</a></li>
-                <li><a href="#section5">Quotes</a></li>
+        <nav class="navBar sectionDiv" >
+            <ul class="bookcolour7 lrborder" type="none" id="navList" >
+                <li><a id="a" href="#section1">PTerry</a></li>
+                <li><a id="b" href="#section2">Discworld</a></li>
+                <li><a id="c" href="#section3">Books</a></li>
+                <!-- <li><a id="d" href="#section4">Awards</a></li> -->
+                <li><a id="e" href="#section5">Quotes</a></li>
             </ul>
         </nav>
     </header>
@@ -53,8 +54,8 @@
 
             </div>
         </section>
-        
-        <div class="toTheTop">^</div>
+<!--         
+        <div class="toTheTop">^</div> -->
 
         <section id="section2" class="pageSection">
             <div class="sectionDiv">
@@ -83,10 +84,10 @@
         <section id="section3" class="pageSection">
             <div class="sectionDiv">
                 <div class="upperDiv ">
-                    <p class="colorScheme1  present" id="booksheading">Books</p>
+                    <p class="colorScheme present" id="booksheading">Books</p>
                 </div>
                 <div class="mainDiv" id="bookmaindiv">
-                    <button id="previous" class="prev" onclick="previousSlide()">&#10094</button>
+                    <button id="previous" class="slidebutton prev" onclick="previousSlide()">&#10094</button>
                     <div class="lrborder">
 
                             <div class="slider">
@@ -113,14 +114,14 @@
                                 </div>
                             </div>
                     </div>
-                    <button id="next" class="next" onclick="nextSlide()">&#10095</button>
+                    <button id="next" class="slidebutton next" onclick="nextSlide()">&#10095</button>
                 </div>
             </div>
         </section> 
 
         
 
-        <section id="section4" class="pageSection">
+        <!-- <section id="section4" class="pageSection">
             <div class="sectionDiv">
                 <div class="upperDiv">
                     <p>Awards</p>
@@ -131,7 +132,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         <section id="section5" class="pageSection">
             <div class="sectionDiv">

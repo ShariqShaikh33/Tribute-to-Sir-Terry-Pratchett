@@ -1,5 +1,4 @@
 #pterryMainDivleft{
-    border-left: 1px solid white;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,6 @@
 }
 
 #pterrynamewrapper{
-    color: white;
     text-align: center;
 }
 
@@ -41,24 +39,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid white;
     width: 50%;
 }
 
 #lefttextwrapper{
-    color: white;
     font-size: 28px;
     width: 80%;
 }
 
 #lefttextwrapper p{
-    color: rgb(210,210,210);
     font-size: 40px;
     line-height: 50px;
     text-align: justify;
 }
 
 #lefttextwrapper span{
-    color: white;
     font-size: 46px;
 }
