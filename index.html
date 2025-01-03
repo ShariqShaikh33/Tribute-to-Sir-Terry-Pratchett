@@ -70,7 +70,7 @@
                             <div class="discimagediv">
                                 <img class="discimage" src="./Images/The_Discworld.png">
                                 <p class="discimagetext">The Discworld</p>
-                                <p class="discimagetext artist">By josh kirby</p>
+                                <p class="discimagetext artist">Illustrated By josh kirby</p>
                             </div>
                             <p class="discworldtext">This is an absurd fantasy world created by Terry Pratchett, to create satirical parellels with our real world. The series consists a total of 41 books. It starts from <span>The Colour OF Magic</span> to <span>The Sheperd's Crown</span> in the order of publication. But you dont have to read the Discworld in that order. The books follows many different stories and characters. The setting is the same but the stories are different. The whole Discworld can be seperated into many sub-series. </p>
 
@@ -82,13 +82,14 @@
 
         <section id="section3" class="pageSection">
             <div class="sectionDiv">
-                <div class="upperDiv">
-                    <p>Books</p>
+                <div class="upperDiv ">
+                    <p class="colorScheme1  present" id="booksheading">Books</p>
                 </div>
-                <div class="mainDiv">
+                <div class="mainDiv" id="bookmaindiv">
+                    <button id="previous" class="prev" onclick="previousSlide()">&#10094</button>
                     <div class="lrborder">
+
                             <div class="slider">
-                                <button id="previous" class="prev" onclick="previousSlide()">&#10094</button>
                                 <div class="slides">
                                     <div class="imgslides">
                                         <img class="slide present" src="./Images/The_Colour_Of_Magic.png">
@@ -100,19 +101,19 @@
                                         <img class="slide" src="./Images/Going_Postal.png">
                                     </div>
                                     <div class="textslides">
-                                        <div class="slide1 textdiv present bookcolour1">The Colour of Magic</div>
-                                        <div class="slide1 textdiv bookcolour2">Equal Rites</div>
-                                        <div class="slide1 textdiv bookcolour3">Mort</div>
-                                        <div class="slide1 textdiv bookcolour4">Guards! Guards!</div>
-                                        <div class="slide1 textdiv bookcolour5">Small Gods</div>
-                                        <div class="slide1 textdiv bookcolour6">The Wee Free Men</div>
-                                        <div class="slide1 textdiv bookcolour7">Going Postal</div>
+                                        <div class="slide1 textdiv present bookcolour1 colorScheme1">The Colour of Magic</div>
+                                        <div class="slide1 textdiv bookcolour2 colorScheme2">Equal Rites</div>
+                                        <div class="slide1 textdiv bookcolour3 colorScheme3">Mort</div>
+                                        <div class="slide1 textdiv bookcolour4 colorScheme4">Guards! Guards!</div>
+                                        <div class="slide1 textdiv bookcolour5 colorScheme5">Small Gods</div>
+                                        <div class="slide1 textdiv bookcolour6 colorScheme6">The Wee Free Men</div>
+                                        <div class="slide1 textdiv bookcolour7 colorScheme7">Going Postal</div>
                                     </div>
                                     
                                 </div>
-                                <button id="next" class="next" onclick="nextSlide()">&#10095</button>
                             </div>
                     </div>
+                    <button id="next" class="next" onclick="nextSlide()">&#10095</button>
                 </div>
             </div>
         </section> 

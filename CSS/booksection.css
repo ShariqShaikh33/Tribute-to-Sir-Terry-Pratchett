@@ -1,3 +1,10 @@
+#bookmaindiv{
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+}
+
 .lrborder{
     display: flex;
     justify-content: center;
@@ -11,15 +18,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .slides{
     
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
+    flex-direction: rows;
     overflow: hidden;
 }
 
@@ -27,37 +35,51 @@
     display: none;
     height: 100%;
 }
+
+.slide img{
+    height: 100%;
+}
+
 .slide1{
     display: none;
     height: 100%;
 }
 .present{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .imgslides{
-    width: 35%;
+    width: 40%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .textslides{
-    
+
     height: 100%;
     width: 100%;
 }
 
-
 .bookcolour1{
-    outline: 17px solid  #a1d2df;
+    outline: 17px solid #a1d2df;
     height: 100%;
     outline-offset: -17px;
     background-color: #f2e0c4;
     color: #ea523d;
+}
 
-    
+.colorScheme1{
+    background-color: #f2e0c4;
+    color: #ea523d;
+    outline: 10px solid #a1d2df;
+    outline-offset: -10px;
 }
 
 .bookcolour2{
@@ -67,6 +89,7 @@
     background-color: #372742;
     color: #ffe830;
 }
+
 
 .bookcolour3{
     outline: 18px solid #5c8cb0;

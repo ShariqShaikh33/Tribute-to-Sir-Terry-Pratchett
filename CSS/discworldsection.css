@@ -10,18 +10,18 @@
     height: auto;
     margin: 0px;
     padding:0px;
+    color: #f2b05a;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     outline: 6px solid white;
     outline-offset: -6px;
     background-color: #272540;
 }
 
 .discworldheading{
-    color: white;
+    color: #f2b05a;
     font-size: 24px;
     font-weight: none;
     letter-spacing: 1px;
@@ -62,7 +62,7 @@
     margin:0px;
     padding: 0px;
     margin-top: 5px;
-    color: white;
+    color: #f2b05a;
     font-size: 26px;
 }
 .artist{
@@ -72,13 +72,11 @@
 .discworldtext{
     width: 80%;
     height: 89%;
-    color: white;
+    color: #f2b05a;
     margin: 0px;
     padding: 5% 3% 0% 3%;
     font-size: 20px;
     letter-spacing: 1px;
     outline: 10px solid white;
     outline-offset: -10px;
-    
-
 }
