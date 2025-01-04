@@ -34,10 +34,23 @@
 .slide{
     display: none;
     height: 100%;
+    width: 100%;
 }
 
-.slide img{
-    height: 100%;
+.coverimage{
+    height: 75%;
+    width: auto;
+    object-fit: cover;
+}
+
+.covertext{
+    color: white;
+    font-size: 26px;
+    margin: 0px;
+}
+.coverartist{
+    font-size: 20px;
+    margin: 1px;
 }
 
 .slide1{
@@ -62,9 +75,8 @@
 }
 
 .textslides{
-
     height: 100%;
-    width: 100%;
+    width: 87%;
 }
 
 .bookcolour1{
