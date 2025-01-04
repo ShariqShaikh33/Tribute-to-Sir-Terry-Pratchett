@@ -43,9 +43,9 @@ const theme=[
         "outlineoffset" : "-10px"
     },
     {
-        "background" : "#2a4127",
-        "color" : "#c2a248",
-        "outline" : "10px solid #cfcd9a",
+        "background" : "#8c4d78",
+        "color" : "#ececfa",
+        "outline" : "10px solid #fed2a1",
         "outlineoffset" : "-10px"
     },
 ]

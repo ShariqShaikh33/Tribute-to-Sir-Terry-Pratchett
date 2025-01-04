@@ -28,6 +28,7 @@ let sourcetag = [
 
 
 
+
 let upperQ = document.getElementById("upperQuotes");
 let lowerQ = document.getElementById("lowerQuotes");
 let upperdiv = document.getElementById("quoteshead");
@@ -43,7 +44,7 @@ staticQuote();
 
 
 let backgroundarr=["bookcolour1","bookcolour2","bookcolour3","bookcolour4","bookcolour5","bookcolour6","bookcolour7"]
-let colorarr = ["#ea523d","#ffe830","#e0cc88","#f7e227","#f5d71c","#333b52","#c2a248"];
+let colorarr = ["#ea523d","#ffe830","#e0cc88","#f7e227","#f5d71c","#333b52","#ececfa"];
 let borderarr = ["#a1d2df","#856783","#5c8cb0","#ef7f2d","#6a9752","#699c4a","#cfcd9a"];
 let terryimage = document.getElementById("pterryMainDivleft");
 let terrytext = document.getElementById("pterryMainDivright");

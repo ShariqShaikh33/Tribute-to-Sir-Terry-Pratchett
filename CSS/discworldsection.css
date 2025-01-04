@@ -15,8 +15,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    outline: 6px solid #4354a1;
-    outline-offset: -6px;
+    outline: 10px solid #4354a1;
+    outline-offset: -10px;
     background-color: #272540;
 }
 
